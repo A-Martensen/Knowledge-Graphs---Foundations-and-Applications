@@ -1,0 +1,6 @@
+.venv/
+Data_Hands-On_1.2/
+
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
