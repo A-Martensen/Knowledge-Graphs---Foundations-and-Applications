@@ -1,0 +1,54 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .  
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .  
+@prefix dbo: <http://dbpedia.org/ontology/> .  
+@prefix dc: <http://purl.org/dc/terms/> .  
+@prefix : <http://www.w3.org/kg2023/> .  
+
+:Television rdf:type dbo:Invention ;  
+    dc:date "1927" ;  
+    dbo:inventor :PhiloFarnsworth ;  
+    dbo:country :UnitedStates ;  
+    rdfs:label "Television"@en, "Fernsehen"@de ;  
+    dbo:field dbo:Electronics .  
+
+:InternetProtocol rdf:type dbo:Invention ;  
+    dc:date "1974" ;  
+    dbo:inventor :VintCerf ;  
+    dbo:inventor :BobKahn ;  
+    dbo:country :UnitedKingdom ;  
+    rdfs:label "Internet Protocol"@en, "Internet Protocol"@de ;  
+    dbo:field dbo:ComputerScience .  
+
+:Penicillin rdf:type dbo:Invention ;  
+    dc:date "1928" ;  
+    dbo:inventor :AlexanderFleming ;  
+    dbo:country :UnitedKingdom ;  
+    rdfs:label "Penicillin"@en, "Penicillin"@de ;  
+    dbo:field dbo:Medicine .  
+
+:Internet rdf:type dbo:Invention ;  
+    dc:date "1969" ;  
+    dbo:country :UnitedStates ;  
+    rdfs:label "Internet"@en, "Internet"@de ;  
+    dbo:field dbo:InformationTechnology .  
+
+:WorldWideWeb rdf:type dbo:Invention ;  
+    dc:date "1989" ;  
+    dbo:inventor :TimBerners-Lee ;  
+    dbo:country :UnitedKingdom ;  
+    rdfs:label "Internet"@en, "World Wide Web"@de ;  
+    dbo:field dbo:InformationTechnology .  
+
+:Walkman rdf:type dbo:Invention ;  
+    dc:date "1979" ;  
+    dbo:inventor :AkioMorita ;  
+    dbo:country :Japan ;  
+    rdfs:label "Walkman"@en, "Walkman"@de ;  
+    dbo:field dbo:Electronics .  
+
+:BallpointPen rdf:type dbo:Invention ;  
+    dc:date "1938" ;  
+    dbo:inventor :LászlóBíró ;  
+    dbo:country :Hungary ;  
+    rdfs:label "Ballpoint Pen"@en, "Kugelschreiber"@de ;  
+    dbo:field dbo:Stationery .  
